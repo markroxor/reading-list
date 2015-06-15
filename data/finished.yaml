@@ -1,7 +1,6 @@
 - author: Arthur Conan Doyle
-  title: The Complete Sherlock Holmes (In progress)
-  finished: 2015-06-01 # TODO: Unfinished.
-  rating: 0 # TODO
+  title: The Complete Sherlock Holmes
+  finished: False
   quotes:
     - page: "23"
       content: The sight of a friendly face in the great wilderness
@@ -10,13 +9,11 @@
       content: No man burdens his mind with small matters unless
         he has some very good reason for doing so.
 - author: Don Norman
-  title: "The Design of Everyday Things (In progress)"
-  finished: 2015-06-01 # TODO: Unfinished.
-  rating: 0 # TODO
+  title: "The Design of Everyday Things"
+  finished: False
 - author: Douglas R. Hofstadter
-  title: "Godel, Escher, Bach: an Eternal Golden Braid (In progress)"
-  finished: 2015-06-01 # TODO: Unfinished.
-  rating: 0 # TODO
+  title: "Godel, Escher, Bach: an Eternal Golden Braid"
+  finished: False
   notes:
     - |
       Godel's Incompleteness Theorem.

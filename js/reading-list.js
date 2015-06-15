@@ -40,7 +40,12 @@ function loadLists() {
     });
 
     getTemplateAjax('templates/finished.hbars.html', function(tmpl) {
-        loadYAML("finished", function(yaml) {
+        loadYAML("finished", function(yamlUnfiltered) {
+            isComplete = function(book) {
+                return book.finished instanceof Date;
+            }
+            yaml = yamlUnfiltered.filter(isComplete);
+
             yaml.sort(function(a,b) {
                 if (a.finished > b.finished) return -1;
                 if (a.finished < b.finished) return 1;
@@ -51,6 +56,7 @@ function loadLists() {
                     (d.getUTCMonth() + 1).toString() + "/" +
                     (d.getUTCDate()).toString();
             }
+
             var len = yaml.length;
             for (var i = 0; i < len; i++) {
                 yaml[i].finished = dateString(yaml[i].finished);
