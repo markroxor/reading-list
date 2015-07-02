@@ -29,19 +29,19 @@ h6 {
     /* letter-spacing: 1px; */
 }
 
-p {
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
-}
+/* p { */
+/*     margin: 0 0 25px; */
+/*     font-size: 18px; */
+/*     line-height: 1.5; */
+/* } */
 
-@media(min-width:768px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
-}
+/* @media(min-width:768px) { */
+/*     p { */
+/*         margin: 0 0 35px; */
+/*         font-size: 20px; */
+/*         line-height: 1.6; */
+/*     } */
+/* } */
 
 a {
     color: #42dca3;

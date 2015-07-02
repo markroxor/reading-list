@@ -51,16 +51,35 @@ function loadLists() {
                 if (a.finished < b.finished) return 1;
                 return 0;
             });
+
             function dateString(d) {
+                // Get a string representation of a date object d.
                 return d.getUTCFullYear().toString() + "/" +
                     (d.getUTCMonth() + 1).toString() + "/" +
                     (d.getUTCDate()).toString();
             }
 
-            var len = yaml.length;
-            for (var i = 0; i < len; i++) {
+            var iLen = yaml.length;
+            for (var i = 0; i < iLen; i++) {
                 yaml[i].finished = dateString(yaml[i].finished);
+
+                // Convert markdown to HTML in the notes and quotes.
+                if ('quotes' in yaml[i]) {
+                    var l = yaml[i].quotes;
+                    var jLen = l.length;
+                    for (var j = 0; j < jLen; j++) {
+                        l[j].content = marked(l[j].content);
+                    }
+                }
+                if ('notes' in yaml[i]) {
+                    var l = yaml[i].notes;
+                    var jLen = l.length;
+                    for (var j = 0; j < jLen; j++) {
+                        l[j] = marked(l[j]);
+                    }
+                }
             }
+
             $("#finished").html(tmpl(yaml));
             finished_yaml = yaml;
 
@@ -94,7 +113,7 @@ function showModal(title,yaml,idx,subfield) {
             title: title,
             onEscape: function() {}
         });
-        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        // MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
     }
 }
 
