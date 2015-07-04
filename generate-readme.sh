@@ -9,6 +9,30 @@ This README is auto-generated with generate-readme.sh
 Please add changes there.
 
 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Reading List
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/img/reading-list.gif)
 
@@ -101,8 +125,9 @@ EOF
 
 github-repo-summary.py \
   0x0af/doiread \
-  seanosaur/reading_list \
   aerovolts/reading-list \
+  donovon/reading-list \
+  seanosaur/reading_list \
   >> README.md
 
 cat>>README.md<<"EOF"
