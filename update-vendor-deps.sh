@@ -10,6 +10,7 @@ mkdir -p vendor/{css,fonts,js}
 cp -r bower_components/bootstrap/dist/* vendor
 cp -r bower_components/font-awesome/* vendor
 #cp -r bower_components/MathJax/unpacked vendor/MathJax
+cp -r bower_components/crypto-js vendor/js
 
 
 cp -r bower_components/TimelineJS/build/* vendor

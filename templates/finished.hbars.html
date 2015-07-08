@@ -1,5 +1,8 @@
 {{#each this}}
-<h3>{{this.author}}: <em>{{this.title}}</em></h3>
+<h3 id="{{this.hash}}">
+  {{this.author}}:
+  <em>{{this.title}}</em>
+</h3>
 <div class="row">
   <div class="col-md-4">
     {{#for 0 this.rating}}<i class="fa fa-star"></i>{{/for}}
@@ -9,6 +12,12 @@
   </div>
   <div class="col-md-4">
     <center>
+      <a href="?book={{this.hash}}">Permalink</a>
+      {{#if this.quotes}}
+          &bull;
+      {{else if this.notes}}
+          &bull;
+      {{/if}}
       {{#if this.quotes}}
       <a href="javascript:void(0)"
          onclick="showModal('{{ escape this.title}}: Quotes',

@@ -15,6 +15,29 @@ function getTemplateAjax(path, callback) {
     });
 }
 
+// http://stackoverflow.com/questions/979975
+function getQueryParams(qs) {
+    qs = qs.split('+').join(' ');
+
+    var params = {},
+        tokens,
+        re = /[?&]?([^=]+)=([^&]*)/g;
+
+    while (tokens = re.exec(qs)) {
+        params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+    }
+
+    return params;
+}
+
+$.fn.scrollView = function () {
+    return this.each(function () {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 1000);
+    });
+}
+
 function loadYAML(name, f) {
     var client = new XMLHttpRequest();
     client.open('GET', 'data/' + name + '.yaml');
@@ -61,6 +84,9 @@ function loadLists() {
 
             var iLen = yaml.length;
             for (var i = 0; i < iLen; i++) {
+                var hash = CryptoJS.SHA256(yaml[i].author + yaml[i].title);
+
+                yaml[i]['hash'] = hash.toString(CryptoJS.enc.Hex);
                 yaml[i].finished = dateString(yaml[i].finished);
 
                 // Convert markdown to HTML in the notes and quotes.
@@ -82,6 +108,11 @@ function loadLists() {
 
             $("#finished").html(tmpl(yaml));
             finished_yaml = yaml;
+
+            var params = getQueryParams(document.location.search);
+            if ('book' in params) {
+                $("#"+params.book).scrollView();
+            }
 
             getTemplateAjax('templates/timeline-body.hbars.html', function(timeline_body_tmpl) {
                 loadTimeline(yaml,timeline_body_tmpl);
