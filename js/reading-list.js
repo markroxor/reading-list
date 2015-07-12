@@ -214,24 +214,3 @@ function registerHandlebarsHelpers() {
       return new Handlebars.SafeString(text);
     });
 }
-
-$(document).ready(function() {
-    quotes_body_tmpl = null;
-    getTemplateAjax('templates/quotes-body.hbars.html', function(tmpl) {
-        quotes_body_tmpl = tmpl;
-    });
-    notes_body_tmpl = null;
-    getTemplateAjax('templates/notes-body.hbars.html', function(tmpl) {
-        notes_body_tmpl = tmpl;
-    });
-
-    registerHandlebarsHelpers();
-    loadLists();
-
-    try{ clicky.init(100602499); }catch(e){}
-    try {
-        var snowplowTracker = Snowplow.getTrackerUrl('derecho.elijah.cs.cmu.edu:8080');
-        snowplowTracker.enableLinkTracking();
-        snowplowTracker.trackPageView();
-    } catch (err) {}
-})
