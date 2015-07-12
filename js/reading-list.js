@@ -106,17 +106,29 @@ function loadLists() {
                 }
             }
 
+            var params = getQueryParams(document.location.search);
+            if ('book' in params) {
+                $(".intro").hide();
+                $("#rHead").hide();
+                $("#cHead").hide();
+                var b = $("#"+params.book);
+                console.log(yaml);
+                for (var i = 0; i < iLen; i++) {
+                    if (yaml[i].hash == params.book) {
+                        yaml = [yaml[i]];
+                        break;
+                    }
+                }
+            }
             $("#finished").html(tmpl(yaml));
             finished_yaml = yaml;
 
-            var params = getQueryParams(document.location.search);
-            if ('book' in params) {
-                $("#"+params.book).scrollView();
+            if (! ('book' in params)) {
+                getTemplateAjax('templates/timeline-body.hbars.html',
+                                function(timeline_body_tmpl) {
+                                    loadTimeline(yaml,timeline_body_tmpl);
+                                });
             }
-
-            getTemplateAjax('templates/timeline-body.hbars.html', function(timeline_body_tmpl) {
-                loadTimeline(yaml,timeline_body_tmpl);
-            });
         });
     });
 
