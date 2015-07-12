@@ -194,16 +194,7 @@ function loadTimeline(finished_yaml, timeline_body_tmpl) {
     });
 }
 
-$(document).ready(function() {
-    quotes_body_tmpl = null;
-    getTemplateAjax('templates/quotes-body.hbars.html', function(tmpl) {
-        quotes_body_tmpl = tmpl;
-    });
-    notes_body_tmpl = null;
-    getTemplateAjax('templates/notes-body.hbars.html', function(tmpl) {
-        notes_body_tmpl = tmpl;
-    });
-
+function registerHandlebarsHelpers() {
     Handlebars.registerHelper('for', function(from, to, block) {
         var accum = '';
         for(var i = from; i < to; ++i) {
@@ -222,7 +213,19 @@ $(document).ready(function() {
       text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
       return new Handlebars.SafeString(text);
     });
+}
 
+$(document).ready(function() {
+    quotes_body_tmpl = null;
+    getTemplateAjax('templates/quotes-body.hbars.html', function(tmpl) {
+        quotes_body_tmpl = tmpl;
+    });
+    notes_body_tmpl = null;
+    getTemplateAjax('templates/notes-body.hbars.html', function(tmpl) {
+        notes_body_tmpl = tmpl;
+    });
+
+    registerHandlebarsHelpers();
     loadLists();
 
     try{ clicky.init(100602499); }catch(e){}
