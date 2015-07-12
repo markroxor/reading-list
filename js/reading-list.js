@@ -111,13 +111,16 @@ function loadLists() {
                 $(".intro").hide();
                 $("#rHead").hide();
                 $("#cHead").hide();
-                var b = $("#"+params.book);
-                console.log(yaml);
+                var found = false;
                 for (var i = 0; i < iLen; i++) {
                     if (yaml[i].hash == params.book) {
                         yaml = [yaml[i]];
+                        found = true;
                         break;
                     }
+                }
+                if (!found) {
+                    alert("Error: Unable to find book.");
                 }
             }
             $("#finished").html(tmpl(yaml));
