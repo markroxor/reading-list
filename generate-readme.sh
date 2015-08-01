@@ -111,6 +111,7 @@ github-repo-summary.py \
   coryschires/reading-list \
   DavidRagone/reading\_list \
   eightbitraptor/reading\_list \
+  engeld/reading-list \
   gbtekkie/ReadingList \
   jaredcacurak/Reading-List \
   >> README.md
