@@ -142,6 +142,9 @@
     <script src="js/reading-list.js"></script>
     <script type="text/javascript">
      $(document).ready(function() {
+         params = getQueryParams(document.location.search);
+         isPermalink = 'book' in params;
+
          quotes_body_tmpl = null;
          getTemplateAjax('templates/quotes-body.hbars.html', function(tmpl) {
              quotes_body_tmpl = tmpl;

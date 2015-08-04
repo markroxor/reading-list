@@ -53,14 +53,16 @@ function loadYAML(name, f) {
 }
 
 function loadLists() {
-    getTemplateAjax('templates/to-read.hbars.html', function(tmpl) {
-        loadYAML("to-read", function(yaml) {
-            yaml.sort(function(a,b) {
-                return a.author.localeCompare(b.author);
+    if (!isPermalink) {
+        getTemplateAjax('templates/to-read.hbars.html', function(tmpl) {
+            loadYAML("to-read", function(yaml) {
+                yaml.sort(function(a,b) {
+                    return a.author.localeCompare(b.author);
+                });
+                $("#to-read").html(tmpl(yaml));
             });
-            $("#to-read").html(tmpl(yaml));
         });
-    });
+    }
 
     getTemplateAjax('templates/finished.hbars.html', function(tmpl) {
         loadYAML("finished", function(yamlUnfiltered) {
@@ -68,12 +70,6 @@ function loadLists() {
                 return book.finished instanceof Date;
             }
             yaml = yamlUnfiltered.filter(isComplete);
-
-            yaml.sort(function(a,b) {
-                if (a.finished > b.finished) return -1;
-                if (a.finished < b.finished) return 1;
-                return 0;
-            });
 
             function dateString(d) {
                 // Get a string representation of a date object d.
@@ -106,8 +102,7 @@ function loadLists() {
                 }
             }
 
-            var params = getQueryParams(document.location.search);
-            if ('book' in params) {
+            if (isPermalink) {
                 $(".intro").hide();
                 $("#rHead").hide();
                 $("#cHead").hide();
@@ -122,27 +117,34 @@ function loadLists() {
                 if (!found) {
                     alert("Error: Unable to find book.");
                 }
-            }
-            $("#finished").html(tmpl(yaml));
-            finished_yaml = yaml;
+            } else {
+                yaml.sort(function(a,b) {
+                    if (a.finished > b.finished) return -1;
+                    if (a.finished < b.finished) return 1;
+                    return 0;
+                });
 
-            if (! ('book' in params)) {
                 getTemplateAjax('templates/timeline-body.hbars.html',
                                 function(timeline_body_tmpl) {
                                     loadTimeline(yaml,timeline_body_tmpl);
                                 });
             }
+
+            $("#finished").html(tmpl(yaml));
+            finished_yaml = yaml;
         });
     });
 
-    getTemplateAjax('templates/compilations.hbars.html', function(tmpl) {
-        loadYAML("compilations", function(yaml) {
-            yaml.sort(function(a,b) {
-                return a.title.localeCompare(b.title);
+    if (!isPermalink) {
+        getTemplateAjax('templates/compilations.hbars.html', function(tmpl) {
+            loadYAML("compilations", function(yaml) {
+                yaml.sort(function(a,b) {
+                    return a.title.localeCompare(b.title);
+                });
+                $("#compilations").html(tmpl(yaml));
             });
-            $("#compilations").html(tmpl(yaml));
         });
-    });
+    }
 }
 
 function showModal(title,yaml,idx,subfield) {
