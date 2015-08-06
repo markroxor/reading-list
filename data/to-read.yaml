@@ -13,9 +13,9 @@
 - author: John Green
   title: The Fault in Our Stars
 - author: Douglas Adams
-  title: The Ultimate Hitchhiker's Guide
+  title: "The Ultimate Hitchhiker's Guide"
 - author: Nolan and Johnson
-  title: Logan's Run
+  title: "Logan's Run"
 - author: Thomas Friedman
   title: The World is Flat
 - author: Herman Hesse
@@ -29,9 +29,7 @@
 - author: David Allen
   title: Getting Things Done
 - author: Ned Vissini
-  title: It's Kind of a Funny Story
-- author: Jason Hickey
-  title: Introduction to Objective Caml
+  title: "It's Kind of a Funny Story"
 - author: Steve McConnell
   title: Code Complete
 - author: James Shore
@@ -40,16 +38,8 @@
   title: Facts and Fallacies of Software Engineering
 - author: Andy Hunt
   title: Pragmatic Programmer
-- author: Dave Thomas
-  title: Programming Ruby 1.9
-- author: why the lucky stiff
-  title: Why's Poignant Guide to Ruby
 - author: Martin
   title: Clean Code
-- author: Jason Hickey
-  title: Real World OCaml
-- author: Mecklenburg
-  title: Managing Projects with GNU Make
 - author: Eric Ries
   title: The Lean Startup
 - author: Michele Boldrin and David Levine
