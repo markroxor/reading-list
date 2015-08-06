@@ -52,6 +52,36 @@ function loadYAML(name, f) {
     client.send();
 }
 
+function prettifyFinishedEntryInPlace(entry) {
+    function dateString(d) {
+        // Get a string representation of a date object d.
+        return d.getUTCFullYear().toString() + "/" +
+            (d.getUTCMonth() + 1).toString() + "/" +
+            (d.getUTCDate()).toString();
+    }
+
+    var hash = CryptoJS.SHA256(entry.author + entry.title);
+
+    entry['hash'] = hash.toString(CryptoJS.enc.Hex);
+    entry.finished = dateString(entry.finished);
+
+    // Convert markdown to HTML in the notes and quotes.
+    if ('quotes' in entry) {
+        var l = entry.quotes;
+        var jLen = l.length;
+        for (var j = 0; j < jLen; j++) {
+            l[j].content = marked(l[j].content);
+        }
+    }
+    if ('notes' in entry) {
+        var l = entry.notes;
+        var jLen = l.length;
+        for (var j = 0; j < jLen; j++) {
+            l[j] = marked(l[j]);
+        }
+    }
+}
+
 function loadLists() {
     if (!isPermalink) {
         getTemplateAjax('templates/to-read.hbars.html', function(tmpl) {
@@ -71,50 +101,17 @@ function loadLists() {
             }
             yaml = yamlUnfiltered.filter(isComplete);
 
-            function dateString(d) {
-                // Get a string representation of a date object d.
-                return d.getUTCFullYear().toString() + "/" +
-                    (d.getUTCMonth() + 1).toString() + "/" +
-                    (d.getUTCDate()).toString();
-            }
-
             var iLen = yaml.length;
             for (var i = 0; i < iLen; i++) {
-                var hash = CryptoJS.SHA256(yaml[i].author + yaml[i].title);
-
-                yaml[i]['hash'] = hash.toString(CryptoJS.enc.Hex);
-                yaml[i].finished = dateString(yaml[i].finished);
-
-                // Convert markdown to HTML in the notes and quotes.
-                if ('quotes' in yaml[i]) {
-                    var l = yaml[i].quotes;
-                    var jLen = l.length;
-                    for (var j = 0; j < jLen; j++) {
-                        l[j].content = marked(l[j].content);
-                    }
-                }
-                if ('notes' in yaml[i]) {
-                    var l = yaml[i].notes;
-                    var jLen = l.length;
-                    for (var j = 0; j < jLen; j++) {
-                        l[j] = marked(l[j]);
-                    }
+                prettifyFinishedEntryInPlace(yaml[i])
+                if (isPermalink && yaml[i].hash == params.book) {
+                    yaml = [yaml[i]];
+                    break;
                 }
             }
 
             if (isPermalink) {
-                $(".intro").hide();
-                $("#rHead").hide();
-                $("#cHead").hide();
-                var found = false;
-                for (var i = 0; i < iLen; i++) {
-                    if (yaml[i].hash == params.book) {
-                        yaml = [yaml[i]];
-                        found = true;
-                        break;
-                    }
-                }
-                if (!found) {
+                if (yaml.length != 1 || yaml[0].hash != params.book) {
                     alert("Error: Unable to find book.");
                 }
             } else {

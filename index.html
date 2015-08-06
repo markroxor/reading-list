@@ -145,6 +145,12 @@
          params = getQueryParams(document.location.search);
          isPermalink = 'book' in params;
 
+         if (isPermalink) {
+             $(".intro").hide();
+             $("#rHead").hide();
+             $("#cHead").hide();
+         }
+
          quotes_body_tmpl = null;
          getTemplateAjax('templates/quotes-body.hbars.html', function(tmpl) {
              quotes_body_tmpl = tmpl;
