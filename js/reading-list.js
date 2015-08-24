@@ -129,6 +129,16 @@ function loadLists() {
 
             $("#finished").html(tmpl(yaml));
             finished_yaml = yaml;
+
+            if (isPermalink) {
+                $(".intro").hide();
+                $("#rHead").hide();
+                $("#cHead").hide();
+                $("h2").hide();
+                $("#finished").prepend('<br>'); // TODO: Add this to CSS.
+                $(".permalink").hide();
+                $("li").hide();
+            }
         });
     });
 

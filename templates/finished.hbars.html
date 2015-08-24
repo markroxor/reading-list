@@ -12,9 +12,9 @@
   </div>
   <div class="col-md-4">
     <center>
-      <a href="?book={{this.hash}}">Permalink</a>
+      <a href="?book={{this.hash}}" class='permalink'>Permalink</a>
       {{#if this.quotes}}
-          &bull;
+          <span class='permalink'>&bull;</span>
       {{else if this.notes}}
           &bull;
       {{/if}}

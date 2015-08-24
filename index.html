@@ -35,7 +35,7 @@
                   data-toggle="collapse" data-target=".navbar-main-collapse">
             <i class="fa fa-bars"></i>
           </button>
-          <a class="navbar-brand page-scroll" href="#page-top">
+          <a class="navbar-brand page-scroll" href="https://bamos.github.io/reading-list">
             <i class="fa fa-book"></i>  <span class="light">Reading</span> List
           </a>
         </div>
@@ -144,12 +144,6 @@
      $(document).ready(function() {
          params = getQueryParams(document.location.search);
          isPermalink = 'book' in params;
-
-         if (isPermalink) {
-             $(".intro").hide();
-             $("#rHead").hide();
-             $("#cHead").hide();
-         }
 
          quotes_body_tmpl = null;
          getTemplateAjax('templates/quotes-body.hbars.html', function(tmpl) {
