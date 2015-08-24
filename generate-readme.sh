@@ -39,13 +39,6 @@ Please add changes there.
 This repository contains my open source reading list.
 See the [online version](http://bamos.github.io/reading-list).
 
-> Hi, I welcome feedback on the code or presentation,
-> I'm not a web developer or designer.
-> The contents of my list is also lacking and I
-> welcome suggestions.
->
-> -Brandon. // 2015/04/19
-
 # Goals
 + Plaintext and friendly data format.
 + Minimal hosting and deployment overhead.
@@ -68,6 +61,7 @@ See the [online version](http://bamos.github.io/reading-list).
 2. Update the [data](https://github.com/bamos/reading-list/tree/gh-pages/data)
   and personalize [index.html](https://github.com/bamos/reading-list/blob/gh-pages/index.html).
   Push your changes to GitHub to see them immediately on the new site.
+3. Replace links to http://bamos.github.io/reading-list with your URL.
 
 # Local Deployment
 Most browsers will not be able to open `index.html` directly
