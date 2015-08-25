@@ -46,15 +46,15 @@ See the [online version](http://bamos.github.io/reading-list).
 + [GitHub Pages](https://pages.github.com/) hosts and automatically
   deploys a 100% client-side website that can also be edited offline.
   [Bower](http://bower.io/) manages 3rd party library dependencies
-  used on the site, stored in [bower.json](https://github.com/bamos/reading-list/blob/gh-pages/bower.json).
+  used on the site, stored in [bower.json](/bower.json).
 
 # Creating Your Reading List: Quick Start
 1. Fork or copy the contents of this repository into a new GitHub repository.
   Make sure the default branch is set to `gh-pages` for deployment.
   At this point, you should be able to see my site hosted at.
   `http://<your-github-name>.github.io/reading-list`
-2. Update the [data](https://github.com/bamos/reading-list/tree/gh-pages/data)
-  and personalize [index.html](https://github.com/bamos/reading-list/blob/gh-pages/index.html).
+2. Update the [data](/data)
+  and personalize [index.html](ndex.html).
   Push your changes to GitHub to see them immediately on the new site.
 3. Replace links to http://bamos.github.io/reading-list with your URL.
 
@@ -67,22 +67,14 @@ and access the website with `localhost:8000`.
 
 # Updating Bower Dependencies
 Run `bower update` to obtain the dependencies in `bower_components`.
-Run [./update-vendor-deps.sh](https://github.com/bamos/reading-list/blob/gh-pages/update-vendor-deps.sh)
-to copy the necessary portions into
-[vendor](https://github.com/bamos/reading-list/tree/gh-pages/vendor).
+Run [./update-vendor-deps.sh](/update-vendor-deps.sh)
+to copy the necessary portions into [vendor](/vendor).
 
-# Getting a Random Quote with a Script
+# Scripts
 
-[get-random-quote.hs](https://github.com/bamos/reading-list/blob/gh-pages/get-random-quote.hs)
-is a Haskell script that prints a random quote from the quote
-collection in
-[data/finished.yaml](https://github.com/bamos/reading-list/blob/gh-pages/data/finished.yaml).
-
-I use it to email myself quotes every few days with a cron
-job piping the output to a command-line mailing program (mutt).
-
-Appropriate packages can be installed with
-[cabal](https://www.haskell.org/cabal/).
+The [scripts](/scripts directory contains Haskell and
+Ruby scripts to select random books and quotes from
+[data/finished.yaml](/data/finished.yaml).
 
 # Inspiration
 The following projects inspired me to create
