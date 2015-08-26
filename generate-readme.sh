@@ -59,7 +59,7 @@ See the [online version](http://bamos.github.io/reading-list).
   At this point, you should be able to see my site hosted at.
   `http://<your-github-name>.github.io/reading-list`
 2. Update the [data](/data)
-  and personalize [index.html](ndex.html).
+  and personalize [index.html](/index.html).
   Push your changes to GitHub to see them immediately on the new site.
 3. Replace links to http://bamos.github.io/reading-list with your URL.
 
