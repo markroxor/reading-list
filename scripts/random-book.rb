@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 #
 # Original by @seanosaur at
-# https://github.com/seanosaur/reading_list/blob/gh-pages/data/randombook.rb
+# https://github.com/seanosaur/reading_list/blob/gh-pages/processing/randombook.rb
 
 require 'yaml'
 
