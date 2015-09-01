@@ -77,7 +77,7 @@ to copy the necessary portions into [vendor](/vendor).
 
 # Scripts
 
-The [scripts](/scripts directory contains Haskell and
+The [scripts](/scripts) directory contains Haskell and
 Ruby scripts to select random books and quotes from
 [data/finished.yaml](/data/finished.yaml).
 
