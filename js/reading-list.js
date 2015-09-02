@@ -90,6 +90,7 @@ function loadLists() {
                     return a.author.localeCompare(b.author);
                 });
                 $("#to-read").html(tmpl(yaml));
+                $("#to-read-count").append(yaml.length);
             });
         });
     }
@@ -100,6 +101,7 @@ function loadLists() {
                 return book.finished instanceof Date;
             }
             yaml = yamlUnfiltered.filter(isComplete);
+            $("#finished-count").append(yaml.length);
 
             var iLen = yaml.length;
             for (var i = 0; i < iLen; i++) {

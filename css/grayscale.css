@@ -345,3 +345,8 @@ body {
 #open-rating {
     margin-left: -3px;
 }
+
+.count {
+    color: rgba(66, 220, 163, 0.75);
+    font-size: 0.75em;
+}
