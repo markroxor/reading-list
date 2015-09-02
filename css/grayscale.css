@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: serif;
     color: #fff;
     background-color: #000;
 }
@@ -24,7 +24,7 @@ h4,
 h5,
 h6 {
     margin: 1em 0 0 0;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: serif;
     /* font-weight: 700; */
     /* letter-spacing: 1px; */
 }
@@ -349,4 +349,24 @@ body {
 .count {
     color: rgba(66, 220, 163, 0.75);
     font-size: 0.75em;
+}
+
+#to-read {
+  font-size: 18px;
+}
+
+#to-read-list {
+  list-style-type: none;
+  margin-left: -17px;
+}
+
+#to-read-list li:before {
+  font-family: FontAwesome;
+  content: '\f101';
+  margin:0 5px 0 -15px;
+  color: rgba(66, 220, 163, 0.7);
+}
+
+hr {
+  border-top-color: rgba(66, 220, 163, 0.7);
 }
