@@ -37,7 +37,10 @@ Please add changes there.
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/img/reading-list.gif)
 
 This repository contains my open source reading list.
-See the [online version](http://bamos.github.io/reading-list).
+I keep track of books I'd like to read and have read by
+editing the files here and the results
+are automatically published as a website at
+[http://bamos.github.io/reading-list](http://bamos.github.io/reading-list).
 
 # Goals
 + Plaintext and friendly data format.
