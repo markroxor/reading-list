@@ -32,9 +32,8 @@ Please add changes there.
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/img/reading-list.gif)
 
 This repository contains my open source reading list.
-I keep track of books I'd like to read and have read by
-editing the files here and the results
-are automatically published as a website at
+I keep track of books editing the files here and
+the results are automatically published as a website at
 [http://bamos.github.io/reading-list](http://bamos.github.io/reading-list).
 
 # Goals
@@ -99,7 +98,7 @@ Name | Stargazers | Description
 [eightbitraptor/reading_list](https://github.com/eightbitraptor/reading_list) | 18 | 
 [engeld/reading-list](https://github.com/engeld/reading-list) | 0 | A collection of my reading list and notes.
 [gbtekkie/ReadingList](https://github.com/gbtekkie/ReadingList) | 2 | handy collection of tekkie readings
-[jaredcacurak/reading-list](https://github.com/jaredcacurak/reading-list) | 2 | My reading list.
+[jaredcacurak/reading-list](https://github.com/jaredcacurak/reading-list) | 3 | My reading list.
 
 # People using this repo for their reading list
 
