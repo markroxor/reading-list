@@ -91,6 +91,10 @@ to import books into data files.
 Please follow their ToS and add appropriate references
 to Goodreads if this is used.
 
+*Warning*: This script only pulls the first 200 books.
+Improvements to this are being tracked in
+[this issue](https://github.com/seanosaur/reading_list/issues/4).
+
 # Inspiration
 The following projects inspired me to create
 a GitHub-hosted reading list.
