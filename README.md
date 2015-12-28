@@ -32,7 +32,7 @@ Please add changes there.
 ![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/img/reading-list.gif)
 
 This repository contains my open source reading list.
-I keep track of books editing the files here and
+I keep track of books by editing the files here and
 the results are automatically published as a website at
 [http://bamos.github.io/reading-list](http://bamos.github.io/reading-list).
 
