@@ -86,16 +86,20 @@ to import books into data files.
 Please follow their ToS and add appropriate references
 to Goodreads if this is used.
 
+*Warning*: This script only pulls the first 200 books.
+Improvements to this are being tracked in
+[this issue](https://github.com/seanosaur/reading_list/issues/4).
+
 # Inspiration
 The following projects inspired me to create
 a GitHub-hosted reading list.
 
 Name | Stargazers | Description
 ----|----|----
-[cmonty/reading-list](https://github.com/cmonty/reading-list) | 6 | Track books I've read and any thoughts I've had. Also uses Wiki to track knowledge.
-[coryschires/reading-list](https://github.com/coryschires/reading-list) | 17 | List of books and screencasts related to development, user experience design, and entrepreneurship. 
+[cmonty/reading-list](https://github.com/cmonty/reading-list) | 8 | Track books I've read and any thoughts I've had. Also uses Wiki to track knowledge.
+[coryschires/reading-list](https://github.com/coryschires/reading-list) | 18 | List of books and screencasts related to development, user experience design, and entrepreneurship. 
 [DavidRagone/reading_list](https://github.com/DavidRagone/reading_list) | 2 | List of books I have read related to development, user experience design, and entrepreneurship
-[eightbitraptor/reading_list](https://github.com/eightbitraptor/reading_list) | 18 | 
+[eightbitraptor/reading_list](https://github.com/eightbitraptor/reading_list) | 19 | 
 [engeld/reading-list](https://github.com/engeld/reading-list) | 0 | A collection of my reading list and notes.
 [gbtekkie/ReadingList](https://github.com/gbtekkie/ReadingList) | 2 | handy collection of tekkie readings
 [jaredcacurak/reading-list](https://github.com/jaredcacurak/reading-list) | 3 | My reading list.
@@ -109,7 +113,7 @@ Name | Stargazers | Description
 [0x0af/doiread](https://github.com/0x0af/doiread) | 0 | 
 [aerovolts/reading-list](https://github.com/aerovolts/reading-list) | 0 | My personal reading list.
 [Donovon/reading-list](https://github.com/Donovon/reading-list) | 0 | My reading list.
-[seanosaur/reading_list](https://github.com/seanosaur/reading_list) | 1 | 
+[seanosaur/reading_list](https://github.com/seanosaur/reading_list) | 2 | 
 
 # Credits and Licensing
 All portions are
