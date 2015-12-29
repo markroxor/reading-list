@@ -103,6 +103,16 @@ function loadLists() {
             yaml = yamlUnfiltered.filter(isComplete);
             $("#finished-count").append(yaml.length);
 
+            // Must be done before `prettifyFinishedEntryInPlace`.
+            // Otherwise, the dates are sorted as strings.
+            if (!isPermalink) {
+                yaml.sort(function(a,b) {
+                    if (a.finished > b.finished) return -1;
+                    if (a.finished < b.finished) return 1;
+                    return 0;
+                });
+            }
+
             var iLen = yaml.length;
             for (var i = 0; i < iLen; i++) {
                 prettifyFinishedEntryInPlace(yaml[i])
@@ -117,12 +127,6 @@ function loadLists() {
                     alert("Error: Unable to find book.");
                 }
             } else {
-                yaml.sort(function(a,b) {
-                    if (a.finished > b.finished) return -1;
-                    if (a.finished < b.finished) return 1;
-                    return 0;
-                });
-
                 getTemplateAjax('templates/timeline-body.hbars.html',
                                 function(timeline_body_tmpl) {
                                     loadTimeline(yaml,timeline_body_tmpl);
