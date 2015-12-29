@@ -17,6 +17,34 @@
   title: Blown to Bits
   finished: False
   rating: TODO
+- author: Sun Tzu
+  title: The Art of War
+  finished: 2015-12-29
+  rating: 4
+  quotes:
+    - page: "I.18"
+      content: All warfare is based on deception.
+    - page: "III.18"
+      content: "Hence the saying: If you know the enemy and know
+        yourself, you need not fear the result of a hundred battles. If
+        you know yourself but not the enemy, for every victory gained
+        you will also suffer a defeat. If you know neither the enemy nor
+        yourself, you will succumb in every battle."
+    - page: "V.15"
+      content: Energy may be likened to the bending of a crossbow;
+        decision, to the releasing of a trigger.
+    - page: "IX.24"
+      content: Humble words and increased preparations are signs that
+        the enemy is about to advance. Violent language and driving
+        forward as if to the attack are signs that he will retreat.
+    - page: "VI.1"
+      content: Whoever is first in the field and awaits the coming of
+        the enemy, will be fresh for the fight; whoever is second in the
+        field and has to hasten to battle will arrive exhausted.
+    - page: "X.31"
+      content: If you know the enemy and know yourself, your victory
+        will not stand in doubt; if you know Heaven and know Earth, you
+        may make your victory complete.
 - author: Douglas R. Hofstadter
   title: "Gödel, Escher, Bach: an Eternal Golden Braid"
   finished: 2015-06-27
