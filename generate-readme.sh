@@ -127,6 +127,7 @@ EOF
 github-repo-summary.py \
   aerovolts/reading-list \
   donovon/reading-list \
+  samtron1412/reading-list \
   seanosaur/reading_list \
   wrideout/reading-list \
   >> README.md
