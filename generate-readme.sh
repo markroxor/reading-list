@@ -128,6 +128,7 @@ github-repo-summary.py \
   aerovolts/reading-list \
   donovon/reading-list \
   seanosaur/reading_list \
+  wrideout/reading-list \
   >> README.md
 
 cat>>README.md<<"EOF"
