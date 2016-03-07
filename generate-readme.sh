@@ -125,7 +125,6 @@ Ping me if you'd like to be added or removed.
 EOF
 
 github-repo-summary.py \
-  0x0af/doiread \
   aerovolts/reading-list \
   donovon/reading-list \
   seanosaur/reading_list \
