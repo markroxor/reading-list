@@ -111,8 +111,11 @@ Ping me if you'd like to be added or removed.
 Name | Stargazers | Description
 ----|----|----
 [aerovolts/reading-list](https://github.com/aerovolts/reading-list) | 0 | My personal reading list.
+[ammadafsar/reading-list](https://github.com/ammadafsar/reading-list) | 0 | My reading list. Made so that I add things I will later read and commit to read them all in order.   
+[connors511/reading-list](https://github.com/connors511/reading-list) | 0 | My reading list. Made so that I add things I will later read and commit to read them all in order.
 [Donovon/reading-list](https://github.com/Donovon/reading-list) | 0 | My reading list.
 [jakehschwartz/reading-list](https://github.com/jakehschwartz/reading-list) | 0 | My reading list.
+[rwfeather/reading-list](https://github.com/rwfeather/reading-list) | 0 | My reading list.
 [samtron1412/reading-list](https://github.com/samtron1412/reading-list) | 0 | My reading list.
 [seanosaur/reading_list](https://github.com/seanosaur/reading_list) | 2 | 
 [wrideout/reading-list](https://github.com/wrideout/reading-list) | 1 | My reading list.
