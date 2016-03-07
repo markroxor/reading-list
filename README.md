@@ -110,7 +110,6 @@ Ping me if you'd like to be added or removed.
 
 Name | Stargazers | Description
 ----|----|----
-[0x0af/doiread](https://github.com/0x0af/doiread) | 0 | 
 [aerovolts/reading-list](https://github.com/aerovolts/reading-list) | 0 | My personal reading list.
 [Donovon/reading-list](https://github.com/Donovon/reading-list) | 0 | My reading list.
 [seanosaur/reading_list](https://github.com/seanosaur/reading_list) | 2 | 
