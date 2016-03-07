@@ -112,6 +112,7 @@ Name | Stargazers | Description
 ----|----|----
 [aerovolts/reading-list](https://github.com/aerovolts/reading-list) | 0 | My personal reading list.
 [Donovon/reading-list](https://github.com/Donovon/reading-list) | 0 | My reading list.
+[jakehschwartz/reading-list](https://github.com/jakehschwartz/reading-list) | 0 | My reading list.
 [samtron1412/reading-list](https://github.com/samtron1412/reading-list) | 0 | My reading list.
 [seanosaur/reading_list](https://github.com/seanosaur/reading_list) | 2 | 
 [wrideout/reading-list](https://github.com/wrideout/reading-list) | 1 | My reading list.
