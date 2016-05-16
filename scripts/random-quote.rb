@@ -9,7 +9,7 @@ class Quote
   end
 
   def display
-    puts "\"#{@q['content']}\""
+    puts "\"#{@q['content'].strip()}\""
     puts "\nFrom page #{@q['page']} of \"#{@book['title']}\" by #{@book['author']}."
   end
 end
