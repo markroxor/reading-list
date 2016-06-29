@@ -1,31 +1,11 @@
-- author: Walt Whitman
-  title: Leaves of Grass
-  finished: 2012-02-02
+- author: Tai Lopez
+  title: Why I read a book a day
+  finished: 2016-06-29
   rating: 3
   quotes:
-    - page: "49"
-      content: A morning-glory at my window satisfies me more than the
-        metaphysics of books
-    - page: "71"
-      content: The clock indicates the moment, but what does eternity indicate?
-    - page: "215"
-      content: That you are here; that life exists and identity. That the
-        powerful play goes on, and you may contribute a verse.
-    - page: "315"
-      content: For what is the present after all but a growth out of the past?
-    - page: "400"
-      content: |
-        Have you not learn'd great lessons from those who reject you,
-        and brace themselves against you?
-
-- author: Tai Lopez
-    title: Why I read a book a day (and why you should too): the law of 33%
-    finished: 2012-29-06
-    rating: 3
-    quotes:
-        - page: "-"
-          content: "Its supposed to be hard, the hard is what makes it great."
-        - page: "-"
-          content: "From age 20 to 30, he never took a day off, not even once."
-        - page: "-"
-          content: "Everybody wants a good life, but not everyone is willing to toughen up."
+        - page: "0"
+          content: Its supposed to be hard, the hard is what makes it great.
+        - page: "0"
+          content: From age 20 to 30, he never took a day off, not even once.
+        - page: "0"
+          content: Everybody wants a good life, but not everyone is willing to toughen up.
