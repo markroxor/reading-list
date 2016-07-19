@@ -9,3 +9,11 @@
           content: From age 20 to 30, he never took a day off, not even once.
         - page: "0"
           content: Everybody wants a good life, but not everyone is willing to toughen up.
+
+- author: Agatha Christie
+  title: And then there were none
+  finished: 2016-07-11
+  rating: 4.2
+  quotes:
+        - page: "315"
+          content: They know, therefore, that one of the ten people on the island was not a murderer in any sense of the word, and it follows, paradoxically, that that person must logically be the murderer.
