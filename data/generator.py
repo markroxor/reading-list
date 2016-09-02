@@ -9,6 +9,8 @@ page = response.read()
 response.close()
 
 page = page.split("\n")
+print page
+
 f=open('./data/to-read.yaml', 'w+')
 
 for i,words in enumerate(page):
