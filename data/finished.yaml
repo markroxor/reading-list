@@ -33,3 +33,11 @@
   quotes:
         - page: "0"
           content: o
+
+- author: Dan Brown
+  title: Digital Fortress
+  finished: 2016-10-11
+  rating: 4.7
+  quotes:
+        - page: "0"
+          content: Who will guard the guards?
