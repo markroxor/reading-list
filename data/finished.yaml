@@ -41,3 +41,19 @@
   quotes:
         - page: "0"
           content: Who will guard the guards?
+
+- author: Richard Feynman
+  title: Surely You Are Joking Mr Feynman
+  finished: 2016-12-19
+  rating: 4.2
+  quotes:
+        - page: "0"
+          content: s
+
+- author: Kevin Mitnick
+  title: Ghost in the Wires
+  finished: 2017-05-22
+  rating: 5.2
+  quotes:
+        - page: "0"
+          content: W
