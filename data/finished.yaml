@@ -89,3 +89,21 @@
   quotes:
         - page: "0"
           content: W
+
+- author: Paulo Coelho
+  title: The Alchemist
+  finished: 2018-09-19
+  rating: 3.9
+  quotes:
+        - page: "52"
+          content: The camel driver understood what the boy was saying. He knew that any given thing on the face of the earth could reveal the history of all things. One could open a book to any page, or look at a persons hand one could turn a card, or watch the flight of the birds… whatever the thing observed, one could find a connection with his experience of the moment.
+        - page: "52"
+          content: Well, maybe I just want to know the future so I can prepare myself for whats coming. If good things are coming, they will be a pleasant surprise, said the seer. If bad things are, and you know in advance, you will suffer greatly before they even occur.
+        - page: "62"
+          content: Then, sometime during the fourth year, the omens will abandon you, because youve stopped listening to them. The tribal chieftains will see that, and youll be dismissed from your position as counselor.
+        - page: "63"
+          content: But the boy continued, I had a dream, and I met with a king. I sold crystal and crossed the desert. And, because the tribes declared war, I went to the well, seeking the alchemist. So, I love you because the entire universe conspired to help me find you.
+        - page: "64"
+          content: She would have to send her kisses on the wind, hoping that the wind would touch the boys face, and would tell him that she was alive.
+        - page: "70"
+          content: To show you one of lifes simple lessons, the alchemist answered. When you possess great treasures within you, and try to tell others of them, seldom are you believed.
