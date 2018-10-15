@@ -89,3 +89,50 @@
   quotes:
         - page: "0"
           content: W
+
+- author: Nick Bostrom
+  title: Superintelligence
+  finished: 2018-09-19
+  rating: 4.8
+  quotes:
+        - page: "19"
+          content: Contrast this with shorter timescales: most technologies that will have a big impact on the world in five or ten years from now are already in limited use, while technologies that will reshape the world in less than fifteen years probably exist as laboratory prototypes.
+        - page: "19"
+          content: Sometimes a problem that initially looks hopelessly complicated turns out to have a surprisingly simple solution (though the reverse is probably more common).
+        - page: "20"
+          content: Let an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever. Since the design of machines is one of these intellectual activities, an ultraintelligent machine could design even better machines; there would then unquestionably be an “intelligence explosion,” and the intelligence of man would be left far behind. Thus the first ultraintelligent machine is the last invention that man need ever make, provided that the machine is docile enough to tell us how to keep it under control.
+        - page: "20"
+          content: We must hope that by the time the enterprise eventually does become feasible, we will have gained not only the technological proficiency to set off an intelligence explosion but also the higher level of mastery that may be necessary to make the detonation survivable.
+        - page: "23"
+          content: While simple neural network models had been known since the late 1950s, the field enjoyed a renaissance after the introduction of the backpropagation algorithm, which made it possible to train multi-layered neural networks.
+        - page: "27"
+          content: “If one could devise a successful chess machine, one would seem to have penetrated to the core of human intellectual endeavor.”55 This no longer seems so.
+        - page: "27"
+          content: One sympathizes with John McCarthy, who lamented As soon as it works, no one calls it AI anymore.
+        - page: "40"
+          content: Readers of this chapter must not expect a blueprint for programming an artificial general intelligence. No such blueprint exists yet, of course. And had I been in possession of such a blueprint, I most certainly would not have published it in a book. (If the reasons for this are not immediately obvious, the arguments in subsequent chapters will make them clear.)
+        - page: "40"
+          content: Alan Turings notion of a child machine, which he wrote about in 1950 Instead of trying to produce a programme to simulate the adult mind, why not rather try to produce one which simulates the childs? If this were then subjected to an appropriate course of education one would obtain the adult brain.
+        - page: "41"
+          content: We know that blind evolutionary processes can produce human-level general intelligence, since they have already done so at least once. Evolutionary processes with foresight—that is, genetic programs designed and guided by an intelligent human programmer—should be able to achieve a similar outcome with far greater efficiency. 
+        - page: "45"
+          content: Suppose, for example, that in addition to the systematic effects of natural selection it required an enormous amount of luck coincidence to produce intelligent life—enough so that intelligent life evolves on only one planet out of every 1030 planets on which simple replicators arise. In that case, when we run our genetic algorithms to try to replicate what natural evolution did, we might find that we must run some 1030 simulations before we find one where all the elements come together in just the right way. This seems fully consistent with our observation that life did evolve here on Earth.
+        - page: "46"
+          content: The existence of birds demonstrated that heavier-than- air flight was physically possible and prompted efforts to build flying machines. Yet the first functioning airplanes did not flap their wings. The jury is out on whether machine intelligence will be like flight, which humans achieved through an artificial mechanism, or like combustion, which we initially mastered by copying naturally occurring fires.
+        - page: "46"
+          content: a seed AI would be a more sophisticated artificial intelligence capable of improving its own architecture. In the early stages of a seed AI, such improvements might occur mainly through trial and error, information acquisition, or assistance from the programmers. At its later stages, however, a seed AI should be able to understand its own workings sufficiently to engineer new algorithms and computational structures to bootstrap its cognitive performance.
+        - page: "47"
+          content: Under some conditions, such a process of recursive self-improvement might continue long enough to result in an intelligence explosion—an event in which, in a short period of time, a system’s level of intelligence increases from a relatively modest endowment of cognitive capabilities (perhaps sub-human in most respects, but with a domain-specific talent for coding and AI research) to radical superintelligence.
+        - page: "0"
+          content: W
+        - page: "0"
+          content: W
+        - page: "0"
+          content: W
+        - page: "0"
+          content: W
+        - page: "0"
+          content: W
+        - page: "0"
+          content: W
+
