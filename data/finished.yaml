@@ -92,11 +92,11 @@
 
 - author: Nick Bostrom
   title: Superintelligence
-  finished: 2018-09-19
+  finished: 2018-10-31
   rating: 4.8
   quotes:
         - page: "19"
-          content: Contrast this with shorter timescales: most technologies that will have a big impact on the world in five or ten years from now are already in limited use, while technologies that will reshape the world in less than fifteen years probably exist as laboratory prototypes.
+          content: Contrast this with shorter timescales most technologies that will have a big impact on the world in five or ten years from now are already in limited use, while technologies that will reshape the world in less than fifteen years probably exist as laboratory prototypes.
         - page: "19"
           content: Sometimes a problem that initially looks hopelessly complicated turns out to have a surprisingly simple solution (though the reverse is probably more common).
         - page: "20"
@@ -123,16 +123,21 @@
           content: a seed AI would be a more sophisticated artificial intelligence capable of improving its own architecture. In the early stages of a seed AI, such improvements might occur mainly through trial and error, information acquisition, or assistance from the programmers. At its later stages, however, a seed AI should be able to understand its own workings sufficiently to engineer new algorithms and computational structures to bootstrap its cognitive performance.
         - page: "47"
           content: Under some conditions, such a process of recursive self-improvement might continue long enough to result in an intelligence explosion—an event in which, in a short period of time, a system’s level of intelligence increases from a relatively modest endowment of cognitive capabilities (perhaps sub-human in most respects, but with a domain-specific talent for coding and AI research) to radical superintelligence.
-        - page: "0"
-          content: W
-        - page: "0"
-          content: W
-        - page: "0"
-          content: W
-        - page: "0"
-          content: W
-        - page: "0"
-          content: W
-        - page: "0"
-          content: W
 
+- author: Paulo Coelho
+  title: The Alchemist
+  finished: 2018-10-2
+  rating: 3.9
+  quotes:
+        - page: "52"
+          content: The camel driver understood what the boy was saying. He knew that any given thing on the face of the earth could reveal the history of all things. One could open a book to any page, or look at a persons hand one could turn a card, or watch the flight of the birds… whatever the thing observed, one could find a connection with his experience of the moment.
+        - page: "52"
+          content: Well, maybe I just want to know the future so I can prepare myself for whats coming. If good things are coming, they will be a pleasant surprise, said the seer. If bad things are, and you know in advance, you will suffer greatly before they even occur.
+        - page: "62"
+          content: Then, sometime during the fourth year, the omens will abandon you, because youve stopped listening to them. The tribal chieftains will see that, and youll be dismissed from your position as counselor.
+        - page: "63"
+          content: But the boy continued, I had a dream, and I met with a king. I sold crystal and crossed the desert. And, because the tribes declared war, I went to the well, seeking the alchemist. So, I love you because the entire universe conspired to help me find you.
+        - page: "64"
+          content: She would have to send her kisses on the wind, hoping that the wind would touch the boys face, and would tell him that she was alive.
+        - page: "70"
+          content: To show you one of lifes simple lessons, the alchemist answered. When you possess great treasures within you, and try to tell others of them, seldom are you believed.
