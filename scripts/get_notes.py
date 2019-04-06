@@ -1,19 +1,22 @@
 import textract
 import re
-text = textract.process("/home/markroxor/Desktop/a.pdf")
+text = textract.process("/Users/mark/Downloads/Archive/Dalio - 2007 - Principles-annotated.pdf")
 
-for t in re.compile(b'Mohit Rathore\n\nPage ').split(text):
-    note = re.compile(b'\n\n[0-9\(\)]+/[0-9\(\)]+/[0-9\(\)]+ [0-9\(\)]+:[0-9\(\)]+\n').split(t)
-    page = note[0]
+with open('a.txt', 'w') as f:
+    tex = ''
+    p = ''
+    for t in re.compile(b'Mohit Rathore').split(text):
+        t = t.split(b'\n')[2:-1]
+        t = b' '.join(t).decode('utf8').split()
+        tex = tex + ' ' + " ".join(t)
 
-    try:
-        page = int(page)
-    except ValueError:
-        continue
+        if len(t) < 2 or 'Page' not in t[-2]:
+            if len(t) >1:
+                print(t[-2])
+            continue
 
-    content = note[1]
-    content = re.compile(b'\n[0-9\(\)]+\n\n').split(content)[0]
-
-    content = re.sub(b'[\n:]', b' ', content)
-    if content != b'':
-        print (page , '-', content.decode('utf-8'))
+        page = t[-1]
+        a = "\n- page: " +  "\"" + page + "\"\n"
+        b = " content: " + tex
+        f.write(a+b)
+        tex = ''
