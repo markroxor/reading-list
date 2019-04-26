@@ -1,8 +1,12 @@
 import textract
 import re
-text = textract.process("/Users/mark/Downloads/Archive/Dalio - 2007 - Principles-annotated.pdf")
+import sys
 
-with open('a.txt', 'w') as f:
+print('Reading file..')
+text = textract.process(sys.argv[1])
+print('Read file.')
+
+with open(sys.argv[2], 'w') as f:
     tex = ''
     p = ''
     for t in re.compile(b'Mohit Rathore').split(text):
@@ -17,6 +21,6 @@ with open('a.txt', 'w') as f:
 
         page = t[-1]
         a = "\n- page: " +  "\"" + page + "\"\n"
-        b = " content: " + tex
+        b = " content: " + ' '.join(tex.replace(':', '').split()[:-2])
         f.write(a+b)
         tex = ''
