@@ -21,6 +21,6 @@ with open(sys.argv[2], 'w') as f:
 
         page = t[-1]
         a = "\n- page: " +  "\"" + page + "\"\n"
-        b = " content: " + ' '.join(tex.replace(':', '').split()[:-2])
+        b = "  content: " + ' '.join(tex.replace(':', '').split()[:-2])
         f.write(a+b)
         tex = ''
