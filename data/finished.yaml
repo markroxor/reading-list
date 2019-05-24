@@ -1,19 +1,7 @@
-- author: Tai Lopez
-  title: Why I read a book a day
-  finished: 2016-06-29
-  rating: 3
-  quotes:
-        - page: "0"
-          content: Its supposed to be hard, the hard is what makes it great.
-        - page: "0"
-          content: From age 20 to 30, he never took a day off, not even once.
-        - page: "0"
-          content: Everybody wants a good life, but not everyone is willing to toughen up.
-
 - author: Agatha Christie
   title: And then there were none
   finished: 2016-07-11
-  rating: 4.2
+  rating: 4
   quotes:
         - page: "315"
           content: They know, therefore, that one of the ten people on the island was not a murderer in any sense of the word, and it follows, paradoxically, that that person must logically be the murderer.
@@ -21,7 +9,7 @@
 - author: Robin Sharma
   title: Who will cry when you will die
   finished: 2016-09-1
-  rating: 4.8
+  rating: 3
   quotes:
         - page: "115"
           content: todo
@@ -29,7 +17,7 @@
 - author: Leigh Bardugo
   title: Six of Crows (Six of Crows 1)
   finished: 2016-08-1
-  rating: 4.5
+  rating: 4
   quotes:
         - page: "0"
           content: o
@@ -37,7 +25,7 @@
 - author: Dan Brown
   title: Digital Fortress
   finished: 2016-10-11
-  rating: 4.7
+  rating: 4
   quotes:
         - page: "0"
           content: Who will guard the guards?
@@ -45,7 +33,7 @@
 - author: Richard Feynman
   title: Surely You Are Joking Mr Feynman
   finished: 2016-12-19
-  rating: 4.2
+  rating: 4
   quotes:
         - page: "0"
           content: s
@@ -53,7 +41,7 @@
 - author: Kevin Mitnick
   title: Ghost in the Wires
   finished: 2017-05-22
-  rating: 4.7
+  rating: 5
   quotes:
         - page: "0"
           content: W
@@ -61,7 +49,7 @@
 - author: Charles Duhigg
   title: The Power of Habit
   finished: 2017-09-17
-  rating: 4.2
+  rating: 5
   quotes:
         - page: "0"
           content: W
@@ -69,7 +57,7 @@
 - author: Ashlee Vance
   title: Elon Musk- Tesla, SpaceX, and the Quest for a Fantastic Future.
   finished: 2017-12-21
-  rating: 4.8
+  rating: 5
   quotes:
         - page: "0"
           content: W
@@ -85,7 +73,7 @@
 - author: Amish Tripathi
   title: The Immortals of Meluha
   finished: 2018-09-19
-  rating: 4.5
+  rating: 3
   quotes:
         - page: "0"
           content: W
@@ -93,7 +81,7 @@
 - author: Nick Bostrom
   title: Superintelligence
   finished: 2018-10-31
-  rating: 4.8
+  rating: 4
   quotes:
         - page: "19"
           content: Contrast this with shorter timescales most technologies that will have a big impact on the world in five or ten years from now are already in limited use, while technologies that will reshape the world in less than fifteen years probably exist as laboratory prototypes.
@@ -127,7 +115,7 @@
 - author: Paulo Coelho
   title: The Alchemist
   finished: 2018-10-2
-  rating: 3.9
+  rating: 3
   quotes:
         - page: "52"
           content: The camel driver understood what the boy was saying. He knew that any given thing on the face of the earth could reveal the history of all things. One could open a book to any page, or look at a persons hand one could turn a card, or watch the flight of the birds… whatever the thing observed, one could find a connection with his experience of the moment.
@@ -145,7 +133,7 @@
 - author: Ray Dalio
   title: Principles
   finished: 2019-03-21
-  rating: 4.8
+  rating: 4
   quotes:
         - page: "23"
           content: I gradually learned that prices reflect people’s expectations, so they go up when actual results are better than expected and they go down when they are worse than expected. And most people tend to be biased by their recent experiences Meditation has benefited me hugely throughout my life because it produces a calm open-mindedness that allows me to think more clearly and creatively.  
@@ -251,7 +239,7 @@
 - author: John Hargrave
   title: Mind Hacking
   finished: 2019-04-26
-  rating: 4.4
+  rating: 4
   quotes:
         - page: "6"
           content: I should really be giving this away to someone, my mind would think, as I tossed in champagne from my wedding, bottles of grappa bought in Italy, and French wines I had been saving for a special occasion (like Thursday).
@@ -416,129 +404,71 @@
 
 - author: Harari, Yuval Noah
   title: A Brief History of Humankind, Sapiens.
-  finished: 2019-04-15
+  finished: 2019-05-15
   rating: 4.2
   quotes:
         - page: "13"
           content: Archaic humans paid for their large brains in two ways. Firstly, they spent more time in search of food. Secondly, their muscles atrophied. Like a government diverting money from defence to education, humans diverted energy from biceps to neurons.
-        - page: "13"
-          content: 
         - page: "14"
           content: Women paid extra. An upright gait required narrower hips, constricting the birth canal – and this just when babies’ heads were getting bigger and bigger. Death in childbirth became a major hazard for human females. Women who gave birth earlier, when the infants brain and head were still relatively small and supple, fared better and lived to have more children. Natural selection consequently favoured earlier births. And, indeed, compared to other animals, humans are born prematurely, when many of their vital systems are still under- developed. A colt can trot shortly after birth; a kitten leaves its mother to forage on its own when it is just a few weeks old. Human babies are helpless, dependent for many years on their elders for sustenance, protection and education.
         - page: "14"
-          content: 
-        - page: "14"
           content: Raising children required constant help from other family members and neighbours. It takes a tribe to raise a human. Evolution thus favoured those capable of forming strong social ties. In addition, since humans are born underdeveloped, they can be educated and socialised to a far greater extent than any other animal. Most mammals emerge from the womb like glazed earthenware emerging from a kiln – any attempt at remoulding will scratch or break them. Humans emerge from the womb like molten glass from a furnace. They can be spun, stretched and shaped with a surprising degree of freedom.
-        - page: "14"
-          content: 
         - page: "22"
           content: The most commonly believed theory argues that accidental genetic mutations changed the inner wiring of the brains of Sapiens, enabling them to think in unprecedented ways and to communicate using an altogether new type of language. We might call it the Tree of Knowledge mutation.
         - page: "22"
-          content: 
-        - page: "22"
           content: A parrot can say anything Albert Einstein could say, as well as mimicking the sounds of phones ringing, doors slamming and sirens wailing. Whatever advantage Einstein had over a parrot, it wasn’t vocal. What, then, is so special about our language?
-        - page: "22"
-          content: 
         - page: "24"
           content: Gossip usually focuses on wrongdoings. Rumour-mongers are the original fourth estate, journalists who inform society about and thus protect it from cheats and freeloaders.
         - page: "24"
-          content: 
-        - page: "24"
           content: only Sapiens can talk about entire kinds of entities that they have never seen, touched or smelled.
         - page: "24"
-          content: 
-        - page: "24"
           content: Many animals and human species could previously say, ‘Careful! A lion!’ Thanks to the Cognitive Revolution, Homo sapiens acquired the ability to say, ‘The lion is the guardian spirit of our tribe.’ This ability to speak about fictions is the most unique feature of Sapiens language. It’s
-        - page: "24"
-          content: 
         - page: "24"
           content: You could never convince a monkey to give you a banana by promising him limitless bananas after death in monkey heaven.
         - page: "24"
           content: fiction has enabled us not merely to imagine things, but to do so collectively. We can weave common myths such as the biblical creation story, the Dreamtime myths of Aboriginal Australians, and the nationalist myths of modern states. Page 24 Page 24
         - page: "26"
           content: once the threshold of 150 individuals is crossed, things can no longer work that way. You cannot run a division with thousands of soldiers the same way you run a platoon. Successful family businesses usually face a crisis when they grow larger and hire more personnel. If they cannot reinvent themselves, they go bust.
-        - page: "26"
-          content: 
         - page: "36"
           content: In such a band, a woman could have sex and form intimate bonds with several men (and women) simultaneously, and all of the band’s adults cooperated in parenting its children. Since no man knew definitively which of the children were his, men showed equal concern for all youngsters.
-        - page: "36"
-          content: 
         - page: "41"
           content: new ‘niches for imbeciles’ were opened up. You could survive and pass your unremarkable genes to the next generation by working as a water carrier or an assembly-line worker.
-        - page: "41"
-          content: 
         - page: "42"
           content: most of the calories feeding an agricultural population came from a single crop – such as wheat, potatoes or rice – that lacks some of the vitamins, minerals and other nutritional materials humans need. The typical peasant in traditional China ate rice for breakfast, rice for lunch, and rice for dinner. If she were lucky, she could expect to eat the same on the following day. By
         - page: "42"
-          content: 
-        - page: "42"
           content: By contrast, ancient foragers regularly ate dozens of different foodstuffs. The peasant’s ancient ancestor, the forager, may have eaten berries and mushrooms for breakfast; fruits, snails and turtle for lunch; and rabbit steak with wild onions for dinner. Tomorrows menu might have been completely different. This variety ensured that the ancient foragers received all the necessary nutrients. Furthermore,
-        - page: "42"
-          content: 
         - page: "53"
           content: Humans don’t come across as particularly dangerous. They don’t have long, sharp teeth or muscular, lithe bodies. So when a diprotodon, the largest marsupial ever to walk the earth, set eyes for the first time on this frail-looking ape, he gave it one glance and then went back to chewing leaves. These animals had to evolve a fear of humankind, but before they could do so they were gone.
-        - page: "53"
-          content: 
         - page: "61"
           content: The average farmer worked harder than the average forager, and got a worse diet in return. The Agricultural Revolution was history’s biggest fraud
         - page: "61"
-          content: 
-        - page: "61"
           content: The culprits were a handful of plant species, including wheat, rice and potatoes. These plants domesticated Homo sapiens, rather than vice versa
         - page: "61"
-          content: 
-        - page: "61"
           content: We did not domesticate wheat. It domesticated us. The word ‘domesticate’ comes from the Latin domus, which means ‘house’. Who’s the one living in a house? Not the wheat. It’s the Sapiens.
-        - page: "61"
-          content: 
         - page: "65"
           content: Then why didn’t humans abandon farming when the plan backfired? Partly because it took generations for the small changes to accumulate and transform society and, by then, nobody remembered that they had ever lived differently
         - page: "65"
-          content: 
-        - page: "65"
           content: The pursuit of an easier life resulted in much hardship, and not for the last time. It happens to us today. How many young college graduates have taken demanding jobs in high-powered firms, vowing that they will work hard to earn money that will enable them to retire and pursue their real interests when they are thirty-five? But by the time they reach that age, they have large mortgages, children to school, houses in the suburbs that necessitate at least two
-        - page: "65"
-          content: 
         - page: "66"
           content: cars per family, and a sense that life is not worth living without really good wine and expensive holidays abroad. What are they supposed to do, go back to digging up roots? No, they double their efforts and keep slaving away.
         - page: "66"
-          content: 
-        - page: "66"
           content: Once people get used to a certain luxury, they take it for granted. Then they begin to count on it. Finally they reach a point where they can’t live without it.
         - page: "66"
-          content: 
-        - page: "66"
           content: Back in the snail-mail era, people usually only wrote letters when they had something important to relate. Rather than writing the first thing that came into their heads, they considered carefully what they wanted to say and how to phrase it. They expected to receive a similarly considered answer. Most people wrote and received no more than a handful of letters a month and seldom felt compelled to reply immediately. Today I receive dozens of emails each day, all from people who expect a prompt reply. We thought we were saving time; instead we revved up the treadmill of life to ten times its former speed and made our days more anxious and agitated
-        - page: "66"
-          content: 
         - page: "69"
           content: Unfortunately, the evolutionary perspective is an incomplete measure of success. It judges everything by the criteria of survival and reproduction, with no regard for individual suffering and happine
-        - page: "69"
-          content: 
         - page: "70"
           content: (Why keep feeding a cock for three years if it has already reached its maximum weight after three months
         - page: "70"
-          content: 
-        - page: "70"
           content: It’s reasonable to assume, for example, that bulls prefer to spend their days wandering over open prairies in the company of other bulls and cows rather than pulling carts and ploughshares under the yoke of a whip-wielding ape
-        - page: "70"
-          content: 
         - page: "72"
           content: A rare wild rhinoceros on the brink of extinction is probably more satisfied than a calf who spends its short life inside a tiny box, fattened to produce juicy steaks. The contented rhinoceros is no less content for being among the last of its kind
-        - page: "72"
-          content: 
         - page: "81"
           content: The Americans got the idea of equality from Christianity, which argues that every person has a divinely created soul, and that all souls are equal before God. However, if we do not believe in the Christian myths about God, creation and souls, what does it mean that all people are ‘equal
         - page: "81"
-          content: 
-        - page: "81"
           content: So here is that line from the American Declaration of Independence translated into biological terms We hold these truths to be self-evident, that all men evolved differently, that they are born with certain mutable characteristics, and that among these are life and the pursuit of pleasure.
-        - page: "81"
-          content: 
         - page: "82"
           content: Voltaire said about God that ‘there is no God, but don’t tell that to my servant, lest he murder me at night’. Hammurabi would have said the same about his principle of hierarchy, and Thomas Jefferson about human rights. Homo sapiens has no natural rights, just as spiders, hyenas and chimpanzees have no natural rights. But don’t tell that to our servants, lest they murder us at night
-        - page: "82"
-          content: 
         - page: "82"
           content: A natural order is a stable order. There is no chance that gravity will cease to function tomorrow, even if people stop believing in it. In contrast, an imagined order is always in danger of collapse, because it depends upon myths, and myths vanish once people stop believing in them
         - page: "84"
@@ -547,70 +477,40 @@
           content: Friends giving advice often tell each other, ‘Follow your heart.’ But the heart is a double agent that usually takes its instructions from the dominant myths of the day, and the very recommendation to ‘Follow your heart’ was implanted in our minds by a combination of nineteenth-century Romantic myths and twentieth-century consumerist myths.
         - page: "85"
           content: A wealthy man in ancient Egypt would never have dreamed of solving a relationship crisis by taking his wife on holiday to Babylon. Instead, he might have built for her the sumptuous tomb she had always wanted.
-        - page: "85"
-          content: 
         - page: "88"
           content: Sapiens social order is imagined, humans cannot preserve the critical information for running it simply by making copies of their DNA and passing these on to their progeny. A conscious effort has to be made to sustain laws, customs, procedures and manners, otherwise the social order would quickly collapse
-        - page: "88"
-          content: 
         - page: "98"
           content: Hammurabi’s Code, for example, established a pecking order of superiors, commoners and slaves. Superiors got all the good things in life. Commoners got what was left. Slaves got a beating if they complained.
         - page: "98"
-          content: 
-        - page: "98"
           content: Many of those who signed the Declaration of Independence were slaveholders. They did not release their slaves upon signing the Declaration, nor did they consider themselves hypocrites. In their view, the rights of men had little to do with Negroes.
-        - page: "98"
-          content: 
         - page: "100"
           content: Hierarchies serve an important function. They enable complete strangers to know how to treat one another without wasting the time and energy needed to become personally acquainted. In
-        - page: "100"
-          content: 
         - page: "101"
           content: Even if somebody is born with a particular talent, that talent will usually remain latent if it is not fostered, honed and exercised. Not Page 100
         - page: "101"
           content: The fear of pollution is not a complete fabrication of priests and princes, however. It probably has its roots in biological survival mechanisms that make humans feel an instinctive revulsion towards potential disease carriers, such as sick persons and dead bodies. If you want to keep any human group isolated – women, Jews, Roma, gays, blacks – the best way to do it is convince everyone that these people are a source of pollution.
         - page: "102"
-          content: 
-        - page: "102"
           content: Groups that failed to win recognition as a caste were, literally, outcasts – in this stratified society, they did not even occupy the lowest rung. They became known as Untouchables.
         - page: "102"
-          content: 
-        - page: "102"
           content: Paradoxically, genetic superiority (in terms of immunity) translated into social inferiority precisely because Africans were fitter in tropical climates than Europeans, they ended up as the slaves of European masters! Due
-        - page: "102"
-          content: 
         - page: "104"
           content: Sex between the races became the greatest taboo and any violation, or suspected violation, was viewed as deserving immediate and summary punishment in the form of lynching. The Ku Klux Klan, a white supremacist secret society, perpetrated many such killings. They could have taught the Hindu Brahmins a thing or two about purity laws.
         - page: "104"
-          content: 
-        - page: "104"
           content: The physical attributes of the white race – for example light skin, fair and straight hair, a small upturned nose – came to be identified as beautiful. Typical black features – dark skin, dark and bushy hair, a flattened nose – were deemed ugly. These preconceptions ingrained the imagined hierarchy at an even deeper level of human consciousness.
-        - page: "105"
-          content: 
         - page: "105"
           content: In many societies women were simply the property of men, most often their fathers, husbands or brothers. Rape, in many legal systems, falls under property violation – in other words, the victim is not the woman who was raped but the male who owns her. This being the case, the legal remedy was the transfer of ownership – the rapist was required to pay a bride price to the woman’s father or brother, upon which she became the rapist’s property.
         - page: "106"
           content: Raping a woman who did not belong to any man was not considered a crime at all, just as picking up a lost coin on a busy street is not considered theft. And Page 105 Page 106
         - page: "106"
           content: To say that a husband ‘raped’ his wife was as illogical as saying that a man stole his own wallet.
-        - page: "106"
-          content: 
         - page: "107"
           content: Culture tends to argue that it forbids only that which is unnatural. But from a biological perspective, nothing is unnatural. Whatever is possible is by definition also natural. A truly unnatural behaviour, one that goes against the laws of nature, simply cannot exist, so it would need no prohibition. No culture has ever bothered to forbid men to photosynthesise, women to run faster than the speed of light, or negatively charged electrons to be attracted to each other.
         - page: "107"
-          content: 
-        - page: "107"
           content: Organs evolve to perform a particular function, but once they exist, they can be adapted for other usages as well. Mouths, for example, appeared because the earliest multicellular organisms needed a way to take nutrients into their bodies. We still use our mouths for that purpose, but we also use them to kiss, speak and, if we are Rambo, to pull the pins out of hand grenades. Are any of these uses unnatural simply because our worm- like ancestors 600 million years ago didn’t do those things with their mouths?
-        - page: "107"
-          content: 
         - page: "112"
           content: Throughout history, males have been willing to risk and even sacrifice their lives, just so that people will say ‘He’s a real man!’ What’s
-        - page: "112"
-          content: 
         - page: "113"
           content: Women are generally more resistant to hunger, disease and fatigue than men. There are also many women who can run faster and lift heavier weights than many men. LOL!
-        - page: "113"
-          content: 
         - page: "115"
           content: As men competed against each other for the opportunity to impregnate fertile women, an individual’s chances of reproduction depended above all on his ability to outperform and defeat other men. As
         - page: "115"
@@ -619,45 +519,27 @@
           content: Though bonobo females are weaker on average than the males, the females often gang up to beat males who overstep their limits
         - page: "121"
           content: They still argue and fight, but they argue using the same concepts and fight using the same weapons. Page 116
-        - page: "122"
-          content: 
         - page: "124"
           content: Osama Bin Laden, for all his hatred of American culture, American religion and American politics, was very fond of American dollars. How did money succeed where gods and kings failed?
-        - page: "124"
-          content: 
         - page: "127"
           content: After all, a trade requires that each side want what the other has to offer. What happens if the shoemaker doesn’t like apples and, if at the moment in question, what he really wants is a divorce?
-        - page: "127"
-          content: 
         - page: "129"
           content: The shoemaker will always be happy to take your money, because no matter what he really wants – apples, goats or a divorce – he can get it in exchange for money
         - page: "129"
-          content: 
-        - page: "129"
           content: It is even possible to convert sex into salvation, as fifteenth-century prostitutes did when they slept with men for money, which they in turn used to buy indulgences from the Catholic Church.
-        - page: "129"
-          content: 
         - page: "130"
           content: People are willing to do such things when they trust the figments of their collective imagination. Trust is the raw material from which all types of money are minted.
         - page: "130"
           content: money is the most universal and most efficient system of mutual trust ever devised. Page 130 Page 130
         - page: "130"
           content: why the stock market can rise or fall depending on the way traders feel on a particular morning.
-        - page: "130"
-          content: 
         - page: "133"
           content: Merchants travelling between India and the Mediterranean would notice the difference in the value of gold. In order to make a profit, they would buy gold cheaply in India and sell it dearly in the Mediterranean. Consequently, the demand for gold in India would skyrocket, as would its value. At the same time the Mediterranean would experience an influx of gold, whose value would consequently drop. Within a short time the value of gold in India and the Mediterranean would be quite similar
         - page: "133"
-          content: 
-        - page: "133"
           content: For thousands of years, philosophers, thinkers and prophets have besmirched money and called it the root of all evil. Be that as it may, money is also the apogee of human tolerance. Money is more open-minded than language, state laws, cultural codes, religious beliefs and social habits. Money is the only trust system created by humans that can bridge almost any cultural gap, and that does not discriminate on the basis of religion, gender, race, age or sexual orientation. Thanks to money, even people who don’t know each other and don’t trust each other can nevertheless cooperate effectively
-        - page: "133"
-          content: 
         - page: "150"
           content: Today religion is often considered a source of discrimination, disagreement and disunion. Yet, in fact, religion has been the third great unifier of humankind, alongside money and empires. Since
-        - page: "150"
-          content: 
         - page: "152"
           content: . Much of ancient mythology is in fact a legal contract in which humans promise everlasting devotion to the gods in exchange for mastery over plants and animals
         - page: "156"
-          content: Monotheists have tended to be far more fanatical and missionary than polytheists.
+          content: Monotheists have tended to be far more fanatical and missionary than polytheists
