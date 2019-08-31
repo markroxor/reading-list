@@ -21,7 +21,7 @@ with open(sys.argv[2], 'w') as f:
         if 'Page' not in t[0]:
             continue
         page = t[1]
-        content = ' '.join(t[4:])
+        content = ' '.join(t[4:]).replace(':', '')
         a = "\n        - page: " +  "\"" + page + "\"\n"
         b = "          content: " + content
 
